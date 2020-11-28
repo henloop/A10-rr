@@ -63,6 +63,7 @@ on fs
     #ifdef VENDOR_EDIT
     #Xuefeng.Peng@PSW.AD.Storage.ReservePartition.1207580, 2018/11/19, Add for change opporeserve mount point for google GSI test
     mkdir /mnt/vendor/opporeserve 0771 system system
+
     #endif /*VENDOR_EDIT*/
     mount_all /vendor/etc/fstab.qcom --early
     chown root system /mnt/vendor/persist
