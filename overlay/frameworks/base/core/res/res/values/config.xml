@@ -564,8 +564,6 @@
        <item>com.kharame.kharameparts.KeyHandler</item>
     </string-array>
 
-<<<<<<< HEAD
-=======
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
