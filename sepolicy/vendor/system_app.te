@@ -5,6 +5,8 @@ allow system_app proc_touchpanel:file { write getattr open read };
 allow system_app apk_data_file:dir { write };
 allow system_app vendor_default_prop:file { getattr open read };
 allow system_app vendor_default_prop:file {map};
+allow system_app sysfs_kcal:dir search;	
+allow system_app sysfs_kcal:file rw_file_perms;
 
 # Battery Health
 allow system_app sysfs_battery_supply:dir { search };

@@ -1,3 +1,6 @@
+allow init sysfs_kcal:file w_file_perms;
+allow init bt_firmware_file:filesystem { getattr };
+allow init firmware_file:filesystem { getattr };
 allow init socket_device:sock_file { create setattr unlink };
 allow init hal_display_postproc_hwservice:hwservice_manager { find };
 allow init hwservicemanager:binder { transfer };
