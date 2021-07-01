@@ -359,6 +359,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     librecovery_updater_RMX1971
 
+# Recorder
+PRODUCT_PACKAGES += \
+    OPScreenRecorder
+
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
