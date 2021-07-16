@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Inherit from RMX1901 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
